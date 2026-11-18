@@ -119,7 +119,7 @@
 "use strict";
 
 /* Replace this with your deployed Cloudflare Worker URL */
-const API_BASE="PASTE_YOUR_WORKER_URL_HERE";
+const API_BASE="https://movies-pk-api.netlify.app/.netlify/functions/tmdb";
 
 const root=document.getElementById("moviespk");
 if(!root)return;
